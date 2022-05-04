@@ -29,3 +29,10 @@ MORSE_KEYS = {
 def decode_char(input)
   MORSE_KEYS[input]
 end
+
+def decode_word(input)
+  letters = input.split
+  decoded_message = ''
+  letters.each { |letter| decoded_message += decode_char(letter) }
+  decoded_message
+end
