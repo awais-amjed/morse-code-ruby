@@ -43,3 +43,5 @@ def decode(input)
   words.each { |word| decoded_message += "#{decode_word(word)} " }
   decoded_message
 end
+
+puts decode_message '.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-. / .-. ..- -... .. . ...'
