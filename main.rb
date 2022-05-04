@@ -32,9 +32,9 @@ end
 
 def decode_word(input)
   letters = input.split
-  decoded_message = ''
-  letters.each { |letter| decoded_message += decode_char(letter) }
-  decoded_message
+  decoded_word = ''
+  letters.each { |letter| decoded_word += decode_char(letter) }
+  decoded_word
 end
 
 def decode(input)
