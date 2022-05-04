@@ -36,3 +36,10 @@ def decode_word(input)
   letters.each { |letter| decoded_message += decode_char(letter) }
   decoded_message
 end
+
+def decode(input)
+  words = input.split('   ')
+  decoded_message = ''
+  words.each { |word| decoded_message += "#{decode_word(word)} " }
+  decoded_message
+end
