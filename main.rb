@@ -44,4 +44,4 @@ def decode(input)
   decoded_message
 end
 
-puts decode_message '.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-. / .-. ..- -... .. . ...'
+puts decode '.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-. / .-. ..- -... .. . ...'
